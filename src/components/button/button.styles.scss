@@ -6,7 +6,7 @@
     line-height: 50px;
     padding: 0 35px 0 35px;
     font-size: 15px;
-    background-color: black;
+    background-color: #4a2448;
     color: white;
     text-transform: uppercase;
     font-family: 'Encode Sans Condensed', sans-serif;
@@ -17,14 +17,16 @@
     justify-content: center;
   
     &:hover {
-      background-color: white;
+      background-color: #72386f;
       color: black;
-      border: 1px solid black;
+      border: none;
     }
   
     &.google-sign-in {
-      background-color: #4285f4;
+      background-color: #093f96;
       color: white;
+      position: relative;
+      top:124px;
   
       &:hover {
         background-color: #357ae8;
